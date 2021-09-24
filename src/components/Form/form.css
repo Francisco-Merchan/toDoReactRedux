@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+}
+
+.buttonsForm {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.buttonsForm > * {
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  transition: all 0.3s;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.buttonsForm > *:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.buttonSubmit {
+  display: block;
+  font-size: 16px;
+}

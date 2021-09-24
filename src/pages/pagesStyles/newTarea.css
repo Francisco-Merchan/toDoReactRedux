@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.newTareaContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.newTareaContainer > * {
+  margin-bottom: 30px;
+}
